@@ -9,26 +9,44 @@
         <style>
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
                 margin: 0;
-                .Header {
+
+                .header {
                     padding: 50px;
                     text-align: center;
                     background: cyan ;
                     color: white;
                 }
-                .Header h1 {
+
+                .header h1 {
                     font-size: 40px;
                 }
+
+                .btn {
+                    border: none;
+                    color: black;
+                    padding: 14px 28px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+
+                .subpage {background-color: red;}
+                .subpage:hover {background-color: darkred;}
             }
         </style>
 
     </head>
     <body style="background-color: black;">
 
-        <div class="Header">
+        <div class="header">
             <h1>Lukebussey.net</h1>
             <p>Work in progress...</p>
         </div>
+
+        <a href="/_2/index.html">
+            <button class="btn subpage">Subpage</button>
+        </a>
 
     </body>
 </html>
